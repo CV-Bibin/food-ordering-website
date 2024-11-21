@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    background: #F6F1E9;
+    color: #333;
+}
+
+
+.nav-bar {
+    background-color: #F4F4F4;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 80px;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    background-color: #F4F4F4;
+}
+
+.logo img {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-list li {
+    position: relative;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #d87007;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px hidden black;
+}
+
+.nav-list a:hover {
+    border-bottom: 2px solid #d87007;
+    color: #d87007;
+}
+
+.nav-list a:focus {
+    border-bottom: 2px solid #B43F;
+    color: #B43F3F;
+}
+.login{
+    padding: 10px 15px;
+    border: 2px hidden black;
+    border-radius: 40px;
+    background-color: #d87007;
+    color: #F6F1E9;
+}
+
+.login:hover{
+    background-color: #af5c09;
+}
+.signup{
+    padding: 10px 15px;
+    border: 2px solid #d87007;
+    border-radius: 40px;
+   
+    color: #d87007;
+}
+
+.signup:hover{
+    background-color: #e5e5e5;
+}
+.login-buttons{
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imaged/3copy.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+h2{
+    color: #F6F1E9;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.h2{
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+
+.search{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.search a{
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #cc6e10;
+}
+
+.search a:hover{
+    background-color: #b45f0a;
+}
+.items{
+    margin: 40px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 80px;
+   
+}
+
+.items-2{
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   
+    
+}
+.items-2 img{
+    width: 300px;
+    height: 200px;
+    
+    
+}
+.items-2 a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.items-3 img{
+    padding: 20px;
+}
+
+.first-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1a17;
+    padding: 40px 0px;
+    gap: 10px;
+    color: white;
+
+}
+
+h4{
+    font-size: 2rem;
+}
+.icons-social img{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.second-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    padding: 20px ;
+    background-color: #F6F1E9;
+}
+
+
+.menu-items{
+
+    background-color: #ffffff;
+    padding: 0px 10px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 440px;
+    
+   
+}
+
+.menu-items img{
+    width: 300px;
+    height: 280px;
+    
+    
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 2px hidden red;
+   border-radius: 40px;
+   background-color: #f59d05f9;
+   color: #ffffff;
+   
+}
+
+.menu-items a:hover{
+    background-color: #af5c09;
+}
+
+
+.menu-items p{
+    margin-bottom: 20px;
+
+    
+}
+.title-cat{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+.menus h1{
+   padding-top: 50px;
+}
+
+.top{
+    line-height: normal;
+   
+}
+
+
+.about{
+    background-color: #c46608;
+    color: #ffffff;
+    padding: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.intro {
+    padding: 20px 0px;
+    margin-bottom: 10px;
+}
+h6{
+    font-size: 4rem;
+    color:#1c1a17;
+    margin-bottom: 10px;
+   color: #c46608;
+}
+
+.jurny{
+    background-image: url(./imaged/Person-packing-compost-dirt-into-flowers\ 1.jpg);
+    color: white;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.square{
+
+    background-color: #c46608;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: white;
+    margin-right: 40px;
+
+}
+.owner{
+    margin: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.owner img{
+    width: 600px;
+    border-radius: 20%;
+    padding: 20px 60px 20px 40px;
+
+
+}
+
+.lasts{
+    text-align: left;
+    
+}
+.owner h1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.owner-p{
+    padding-right: 250px;
+   
+}
